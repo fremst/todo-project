@@ -1,0 +1,10 @@
+.tabs {
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(169, 116, 17);
+}
+
+.active {
+  color: orange;
+  border-bottom: 0.1em solid white;
+}

@@ -1,0 +1,36 @@
+.dark {
+  color: white;
+}
+
+.light {
+  color: black;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.checkList {
+  padding: 0.3em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  height: 2em;
+  width: 2em;
+  line-height: 2.2em;
+  font-size: 0.8em;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: orange;
+  transform: rotate(30deg);
+  transition: transform 0.1s;
+}
